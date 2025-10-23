@@ -1,0 +1,75 @@
+# Environment files
+.env
+.env.*
+*.env
+!.env.example
+
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs
+*.log
+logs/
+debug.log
+error.log
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build artifacts
+dist/
+build/
+out/
+.cache/
+.next/
+coverage/
+*.tgz
+
+# Bubble exports or temporary API connector data
+**/bubble-exports/**
+**/bubble-connector/**
+
+# Temporary data / dev datasets
+docs/datasets/sample_pdfs/*
+!docs/datasets/sample_pdfs/readme.txt
+
+# Flowise cache
+flowise-data/
+flowise-storage/
+.flowise/
+
+# Python cache (if you ever use Python scripts)
+__pycache__/
+*.py[cod]
+
+# Local databases or metadata dumps
+*.sqlite
+*.db
+*.bak
+
+# OS trash
+*.tmp
+*.temp
+~$*
+
+# GitHub / build service artifacts
+*.zip
+*.tar
+*.tar.gz
+
+# IDE settings
+*.code-workspace
+*.iml
+
+# Misc
+*.bak
+*.old
