@@ -18,45 +18,12 @@ Aura/
 ├─ LICENSE
 ├─ .gitignore
 ├─ .env.example
-├─ SECURITY.md
 ├─ PRIVACY.md
-├─ ARCHITECTURE.md
-├─ ROADMAP.md
-├─ CHANGELOG.md
 ├─ docs/
 │  ├─ flowise-export.json
 │  ├─ prompts/
 │  │  ├─ system_prompt.md
-│  │  └─ user_examples.md
-│  ├─ datasets/
-│  │  ├─ sample_pdfs/
-│  │  └─ metadata_examples.json
-│  ├─ api/
-│  │  ├─ postman_collection.json
-│  │  └─ openapi.yaml
-│  └─ ui/
-│     ├─ screenshots/
-│     └─ demo.gif
-├─ scripts/
-│  ├─ embed_seed.ts
-│  ├─ reindex.ts
-│  └─ healthcheck.mjs
-├─ clients/
-│  ├─ bubble/
-│  │  ├─ api_connector_export.json
-│  │  └─ README.md
-│  └─ web-minimal/
-│     ├─ package.json
-│     ├─ src/
-│     │  ├─ main.ts
-│     │  └─ chat.ts
-│     └─ README.md
-└─ infra/
-   ├─ supabase/
-   │  ├─ schema.sql
-   │  └─ seed.sql
-   └─ upstash/
-      └─ notes.md
+
 ```
 
 ---
